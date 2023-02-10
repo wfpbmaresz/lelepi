@@ -7,7 +7,7 @@ Date: 2023-02-11
 Github: https://github.com/wfpbmaresz
 Licenc: GNU GPL
 */
-alert("Szőllősi-Maruzs Eszter; Szoft I/1-E; 2023.02.11.");
+
 
 const calcButton = document.querySelector("#calcButton");
 const heightA = document.querySelector("#heightA");
