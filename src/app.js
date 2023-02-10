@@ -3,11 +3,11 @@ File: app.js
 Author: Szőllősi-Maruzs Eszter
 Copyright: 2023, Szőllősi-Maruzs Eszter
 Group: Szoft I/1-E
-Date: 2023-02-09
+Date: 2023-02-11
 Github: https://github.com/wfpbmaresz
 Licenc: GNU GPL
 */
-
+alert("Szőllősi-Maruzs Eszter; Szoft I/1-E; 2023.02.11.");
 
 const calcButton = document.querySelector("#calcButton");
 const heightA = document.querySelector("#heightA");
@@ -29,5 +29,3 @@ calcButton.addEventListener("click", () => {
   area.value = volume;
 });
 
-
-console.log("Szőllősi-Maruzs Eszter, Szoft 1/I-E, 2023.02.09.")
