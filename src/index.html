@@ -14,8 +14,45 @@ Licenc: GNU GPL
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feladat 0358</title>
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Paralelepipedon térfogata</h1>
+
+        <div class="Paralelepipedon">
+            
+            <div class="input">
+                <label for="heightA" class="form-label">"A" él hossza</label>
+                <input type="text" id="heightA" 
+                class="form-control">
+            </div>
+            <div class="input">
+                <label for="heightB" class="form-label">"B" él hossza</label>
+                <input type="text" id="heightB" 
+                class="form-control">
+            </div>
+            <div class="input">
+                <label for="heightC" class="form-label">"C" él hossza</label>
+                <input type="text" id="heightC" 
+                class="form-control">
+            </div>
+
+            <button id="calcButton" class="btn btn-info mt-2">Kiszámol</button>
+
+            <div class="output">
+                <label for="area" class="form-label">Térfogat</label>
+                <input type="text" id="area"
+                class="form-control">
+            </div>            
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
